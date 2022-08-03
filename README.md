@@ -63,8 +63,7 @@
 
 * ERD
 
-  ![testResult](./docs/ERD.png)
-  <img width="560" height="315" src='https://dbdiagram.io/embed/62e9f0b8f31da965e86ab483'>
+ <img width="560" height="315" src='https://dbdiagram.io/embed/62e9f0b8f31da965e86ab483'>
 
   ```json
   // 예시
