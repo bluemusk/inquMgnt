@@ -66,14 +66,6 @@
  <img width="560" height="315" src='erd.png'>
  
 
-  ```json
-  // 예시
-  {
-    "errorStatus": "INTERNAL_SERVER_ERROR",
-    "errorCode": 500,
-    "errorMessage": "예상하지 못한 에러가 발생하였습니다."
-  }
-  ```
 ## 3. API Common Spec
 ### 1) 공통 응답
 * 응답코드
@@ -86,6 +78,15 @@
 | `400`    | 잘못된 요청           |
 | `404`    | 리소스를 찾을 수 없음 |
 | `500`    | 시스템 에러           |
+
+  ```json
+  // 예시
+  {
+    "errorStatus": "INTERNAL_SERVER_ERROR",
+    "errorCode": 500,
+    "errorMessage": "예상하지 못한 에러가 발생하였습니다."
+  }
+  ```
 
 `에러코드 및 메시지`
 
